@@ -728,7 +728,7 @@ int main(int argc, char *argv[])
 ---
 # **Result**
 
-![](a.GIF)
+![](a.gif)
 
 
 # **Texteditor**
@@ -1156,7 +1156,7 @@ int main(int argc, char *argv[])
 
 # **Result**
 
-![](aa.GIF)
+![](aa.gif)
 
 # **Conclusion**
 
