@@ -237,10 +237,10 @@ void loadcontent(QString filename);
 
  //Pointers
 private:
-    // --------------- Central Widget -------------//
+    // --------------- Central Widget -------------
     QTableWidget *spreadsheet;
 
-    // --------------- Actions       --------------//
+    // --------------- Actions       --------------
     QAction * newFile;
     QAction * open;
     QAction * save;
@@ -343,7 +343,7 @@ SpreadSheet::~SpreadSheet()
 {
     delete spreadsheet;
 
-    // --------------- Actions       --------------//
+    // --------------- Actions       --------------
     delete  newFile;
     delete  open;
     delete  save;
@@ -463,7 +463,7 @@ void SpreadSheet::close()
 //create the menus and add the elements in places
 void SpreadSheet::createMenus()
 {
-    // --------  File menu -------//
+    // --------  File menu -------
     FileMenu = menuBar()->addMenu("&File");
     FileMenu->addAction(newFile);
     FileMenu->addAction(open);
@@ -473,7 +473,7 @@ void SpreadSheet::createMenus()
     FileMenu->addAction(exit);
 
 
-    //------------- Edit menu --------/
+    //------------- Edit menu --------
     editMenu = menuBar()->addMenu("&Edit");
     editMenu->addAction(cut);
     editMenu->addAction(copy);
@@ -538,7 +538,7 @@ void SpreadSheet::updateStatusBar(int row, int col)
 void SpreadSheet::makeConnexions()
 {
 
-   // --------- Connexion for the  select all action ----/
+   // --------- Connexion for the  select all action ----
    connect(all, &QAction::triggered,
            spreadsheet, &QTableWidget::selectAll);
 
