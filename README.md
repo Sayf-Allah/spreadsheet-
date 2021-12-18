@@ -1,5 +1,5 @@
 
-![](yy.gif)
+![](rr.gif)
 
 Graphical users’ interface (GUI) helps the computer users to interact with the computer by relocating the pointer on the screen and also pressing a button or other functionalities. Nowadays graphical interfaces have become both more powerful and more complex especially when you combined with the QT platform and qt designer tool for designing and building graphical user interfaces (GUIs) with Qt Widgets .To make it easier for people with few computer skills to work with and use computer software, the GUI create some elements that offer a consistent visual language to represent information in an easy way. Some of the elements are the main window that represent the main component of an application and other elements like menus …. 
 
